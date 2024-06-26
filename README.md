@@ -12,7 +12,19 @@ This is the sensing unit of the watch. MAX30102 is an integrated pulse oximeter 
 
 ESP32 C3 is a microcontroller board. It consists of a powerful 32-bit RISC-V processor with built in WiFi and Bluetooth Low Energy (BLE) connectivity. It is used in this project because of its compact size. It collects data from the three sensors using the PCA9548 multiplexer and sends the data to Firebase as well as the GUI. It also consists of an inbuilt battery charging IC which makes this product rechargeable.
 
-2) PCA9548 Multiplexing IC
-<img src="https://github.com/AshayAtkar/Pulse-Monitoring-Wrist-Band/assets/120382546/d3c1cef9-1169-4d3a-ba40-fceef5df3caf" alt="Image" width="350">
+3) PCA9548 Multiplexing IC
+<img src="https://github.com/AshayAtkar/Pulse-Monitoring-Wrist-Band/assets/120382546/d3c1cef9-1169-4d3a-ba40-fceef5df3caf" alt="Image" width="250">
 
-The PCA9548 is an integrated circuit that acts as an 8-channel I2C multiplexer. It allows us to connect up to 8 I2C devices to a single I2C bus on our microcontroller. The I2C device which needs to be communicated is choosen using a , which then routes the I2C signals to the selected device. This is useful when you have limited I2C bus pins on your microcontroller but want to connect multiple I2C sensors or other devices.
+The PCA9548 is an integrated circuit that acts as an 8-channel I2C multiplexer. It allows us to connect up to 8 I2C devices to a single I2C bus on our microcontroller. The I2C device which needs to be communicated is choosen using a 8 bit command given to the multiplexer IC, which then routes the I2C signals to the selected device. This is useful when the I2C addresses of the connected devices are same. In this project 3 same sensors with same addresses are used, therefore I2C multiplexer IC is required.
+
+4) FPC connector and cable
+<img src="https://github.com/AshayAtkar/Pulse-Monitoring-Wrist-Band/assets/120382546/5520d8df-a6e0-4006-ae35-bd2e5bae2222" alt="Image" width="150">
+<img src="https://github.com/AshayAtkar/Pulse-Monitoring-Wrist-Band/assets/120382546/3fcca4b1-3366-4bce-9337-e6d5bdc4fa1c" alt="Image" width="150">
+
+Flexible printed cable (FPC) is a compact and efficient way to make connections between PCB's. In this project we have made two PCB designs. One for holding the three sensors on the radial artery (below the wrist) and the other for holding the ESP32 C3 and I2C multiplexer IC on the top of the wrist. The FPC cable is used to make a efficient connection between these two PCB's.
+
+5) Rechargeable Lithium Ion Battery (3.7V, 450mAH) (To provide power to the required components)
+<img src="https://github.com/AshayAtkar/Pulse-Monitoring-Wrist-Band/assets/120382546/4635044f-c8c7-43e9-b66c-adca65898e13" alt="Image" width="250">
+
+6) Switch (For switching on the watch)
+<img src="https://github.com/AshayAtkar/Pulse-Monitoring-Wrist-Band/assets/120382546/dfa8b2c9-638e-4caf-be58-173aea3fbe71" alt="Image" width="250">
