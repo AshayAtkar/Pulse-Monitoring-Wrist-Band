@@ -38,3 +38,11 @@ Flexible printed cable (FPC) is a compact and efficient way to make connections 
 2) Bottom PCB
 <img src="https://github.com/AshayAtkar/Pulse-Monitoring-Wrist-Band/assets/120382546/30460564-0564-406d-bcfe-df796ec0756a" alt="Image" width="250">
 <img src="https://github.com/AshayAtkar/Pulse-Monitoring-Wrist-Band/assets/120382546/f52f525b-f0b2-4ec0-af23-8cba8cb12e8d" alt="Image" width="250" height="291">
+
+# Some Images of Pulse-Monitoring-Wrist-Band
+
+1) Working Demonstration
+<img src="https://github.com/AshayAtkar/Pulse-Monitoring-Wrist-Band/assets/120382546/4991f3b0-efbb-4064-960d-0f79f88188a9" alt="Image" width="350">
+
+2) Final Product
+<img src="https://github.com/AshayAtkar/Pulse-Monitoring-Wrist-Band/assets/120382546/0bb63e0c-a251-48cf-9a13-61f0b7db5b5c" alt="Image" width="650">
