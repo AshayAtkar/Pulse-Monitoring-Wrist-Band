@@ -28,3 +28,13 @@ Flexible printed cable (FPC) is a compact and efficient way to make connections 
 
 6) Switch (For switching on the watch)
 <img src="https://github.com/AshayAtkar/Pulse-Monitoring-Wrist-Band/assets/120382546/dfa8b2c9-638e-4caf-be58-173aea3fbe71" alt="Image" width="250">
+
+# PCB 3D Images
+
+1) Top PCB
+<img src="https://github.com/AshayAtkar/Pulse-Monitoring-Wrist-Band/assets/120382546/df95613b-bb2d-4b77-b86e-02ae88480e36" alt="Image" width="250">
+<img src="https://github.com/AshayAtkar/Pulse-Monitoring-Wrist-Band/assets/120382546/dcb9d047-8098-4703-b33d-59864ab3093c" alt="Image" width="250" height="396">
+
+2) Bottom PCB
+<img src="https://github.com/AshayAtkar/Pulse-Monitoring-Wrist-Band/assets/120382546/30460564-0564-406d-bcfe-df796ec0756a" alt="Image" width="250">
+<img src="https://github.com/AshayAtkar/Pulse-Monitoring-Wrist-Band/assets/120382546/f52f525b-f0b2-4ec0-af23-8cba8cb12e8d" alt="Image" width="250" height="291">
