@@ -21,8 +21,8 @@ TwoWire I2Cone = TwoWire(0);
 #include "addons/RTDBHelper.h"
 
 // Insert your network credentials
-#define WIFI_SSID "LAPTOP-ORL3UTLV 7786"
-#define WIFI_PASSWORD "SidNHP_13"
+#define WIFI_SSID "XXXXXXX"
+#define WIFI_PASSWORD "xxxxxxx"
 
 
 
@@ -30,8 +30,8 @@ TwoWire I2Cone = TwoWire(0);
 #define API_KEY "AIzaSyDKEu5sJ_H1bAhDOjOOF19m1KqRTY-cUYs"
 
 // Insert Authorized Email and Corresponding Password
-#define USER_EMAIL "jeeveshpathakiit247@gmail.com"
-#define USER_PASSWORD "12345678"
+#define USER_EMAIL "example@mail.com" // Email ID of user wearing the watch
+#define USER_PASSWORD "12345678" // Password
 
 // Insert RTDB URLefine the RTDB URL
 #define DATABASE_URL "https://pulseplotterend-default-rtdb.europe-west1.firebasedatabase.app/"
